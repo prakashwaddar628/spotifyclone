@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="top">
+          <ul class="side-nav">
+            <div class="logo">
+              <a href="#">
+                <img src="/Spotify/assets/logo.svg" alt="" />
+              </a>
+            </div>
+            <li>
+              <a href="#">
+                <img src="/Spotify/assets/home.svg" alt="Home" width="25px" />
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="/Spotify/assets/search.svg"
+                  alt="Search"
+                  width="25px"
+                />
+                <span>Search</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- div top end -->
+
+        <div class="down">
+          <div class="library">
+            <div class="your_library">
+              <a href="#">
+                <img
+                  src="/Spotify/assets/playlist.svg"
+                  alt="Your Library"
+                  width="25px"
+                />
+                <span>Your Library</span>
+              </a>
+              <div class="add">
+                <a href="#"> + </a>
+              </div>
+            </div>
+
+            <div class="scroll_content">
+              <div class="create_content">
+                <h2>Create your first playlist</h2>
+                <p>It's easy, We'll help you</p>
+                <button class="create_playlist" id="create_playlist">
+                  Create playlist
+                </button>
+              </div>
+
+              <div class="create_content">
+                <h2>Lets find some pocasts to follow</h2>
+                <p>We'll keep you updated on new episdes</p>
+                <button class="create_playlist" id="browse_podcasts">
+                  Browse podcasts
+                </button>
+              </div>
+            </div>
+            <!-- div scroll contend end -->
+
+            <footer class="contents">
+              <div class="texts">
+                <ul class="top_box">
+                  <li>
+                    <a href=""><span>Legal</span></a>
+                  </li>
+                  <li>
+                    <a href=""><span>Safety & Privacy Center</span></a>
+                  </li>
+                  <li>
+                    <a href=""><span>Privacy Policy</span></a>
+                  </li>
+                </ul>
+                <ul class="bottom_box">
+                  <li>
+                    <a href=""><span>Cookies</span></a>
+                  </li>
+                  <li>
+                    <a href=""><span>About Ads</span></a>
+                  </li>
+                  <li>
+                    <a href=""><span>Accessibility</span></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <a href="">
+                  <span>Cookies</span>
+                </a>
+              </div>
+
+              <button class="lang" id="language">
+                <img src="/Spotify/assets/globe.svg" alt="" />
+                <span>English</span>
+              </button>
+            </footer>
+          </div>
+          <!-- library end -->
+        </div>
+        <!-- down end -->
+      </div>
+      <!-- left end -->
+      <div class="right">
+        <div class="nav">
+          <nav class="nav1">
+            <div class="left_nav">
+              <button>
+                <img
+                  src="/Spotify/assets/arrow-left-01-stroke-rounded.svg"
+                  alt=""
+                  srcset=""
+                />
+              </button>
+              <button>
+                <img
+                  src="/Spotify/assets/arrow-right-01-stroke-rounded.svg"
+                  alt=""
+                  srcset=""
+                />
+              </button>
+            </div>
+            <div class="right_nav">
+              <button class="signup">Sign up</button>
+              <button class="login">Login</button>
+            </div>
+          </nav>
+          <!-- nav1 end -->
+          <main class="scrollView">
+            <div class="Artists">
+              <div class="title">
+                <h1>Popular artists</h1>
+                <button>Show all</button>
+              </div>
+              <div class="artistInfo">
+                <div class="artistCard">
+                  <div class="image">
+                    <img
+                      src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                      alt="Pritam"
+                    />
+                  </div>
+                  <div class="musicPlayer">
+                    <button>
+                      <img src="/Spotify/assets/play.svg" alt="Play" />
+                    </button>
+                  </div>
+                  <div class="name">
+                    <h1>Pritam</h1>
+                    <h3>Artist</h3>
+                  </div>
+                </div>
+                <!-- Repeat the artistCard div for other artists as needed -->
+              </div>
+            </div>
+            <!--artist end  -->
+
+            <div class="Album">
+              <div class="title">
+                <h1>Popular artists</h1>
+                <button>Show all</button>
+              </div>
+              <div class="artistInfo">
+                <div class="artistCard">
+                  <div class="AlbumImage">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03"
+                      alt="Pritam"
+                    />
+                  </div>
+                  <div class="musicPlayer">
+                    <button>
+                      <img src="/Spotify/assets/play.svg" alt="Play" />
+                    </button>
+                  </div>
+                  <div class="name">
+                    <h1>Pritam</h1>
+                    <h3>Artist</h3>
+                  </div>
+                </div>
+                <!-- Repeat the artistCard div for other artists as needed -->
+              </div>
+            </div>
+
+            <!-- album end -->
+
+            <div class="Album">
+              <div class="title">
+                <h1>Popular artists</h1>
+                <button>Show all</button>
+              </div>
+              <div class="artistInfo">
+                <div class="artistCard">
+                  <div class="AlbumImage">
+                    <img
+                      src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                      alt="Pritam"
+                    />
+                  </div>
+                  <div class="musicPlayer">
+                    <button>
+                      <img src="/Spotify/assets/play.svg" alt="Play" />
+                    </button>
+                  </div>
+                  <div class="name">
+                    <h1>Pritam</h1>
+                    <h3>Artist</h3>
+                  </div>
+                </div>
+                <!-- Repeat the artistCard div for other artists as needed -->
+              </div>
+            </div>
+            <!-- Popular Radio end -->
+
+            <div class="Album">
+              <div class="title">
+                <h1>Popular artists</h1>
+                <button>Show all</button>
+              </div>
+              <div class="artistInfo">
+                <div class="artistCard">
+                  <div class="AlbumImage">
+                    <img
+                      src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                      alt="Pritam"
+                    />
+                  </div>
+                  <div class="musicPlayer">
+                    <button>
+                      <img src="/Spotify/assets/play.svg" alt="Play" />
+                    </button>
+                  </div>
+                  <div class="name">
+                    <h1>Pritam</h1>
+                    <h3>Artist</h3>
+                  </div>
+                </div>
+                <!-- Repeat the artistCard div for other artists as needed -->
+              </div>
+            </div>
+            <!-- FeaturedCharts end -->
+
+            <div class="Album">
+              <div class="title">
+                <h1>Popular artists</h1>
+                <button>Show all</button>
+              </div>
+              <div class="artistInfo">
+                <div class="artistCard">
+                  <div class="AlbumImage">
+                    <img
+                      src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                      alt="Pritam"
+                    />
+                  </div>
+                  <div class="musicPlayer">
+                    <button>
+                      <img src="/Spotify/assets/play.svg" alt="Play" />
+                    </button>
+                  </div>
+                  <div class="name">
+                    <h1>Pritam</h1>
+                    <h3>Artist</h3>
+                  </div>
+                </div>
+                <!-- Repeat the artistCard div for other artists as needed -->
+              </div>
+            </div>
+            <!-- SpotifyPlayList end -->
+            <div class="Album">
+              <div class="title">
+                <h1>Popular artists</h1>
+                <button>Show all</button>
+              </div>
+              <div class="artistInfo">
+                <div class="artistCard">
+                  <div class="AlbumImage">
+                    <img
+                      src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                      alt="Pritam"
+                    />
+                  </div>
+                  <div class="musicPlayer">
+                    <button>
+                      <img src="/Spotify/assets/play.svg" alt="Play" />
+                    </button>
+                  </div>
+                  <div class="name">
+                    <h1>Pritam</h1>
+                    <h3>Artist</h3>
+                  </div>
+                </div>
+                <!-- Repeat the artistCard div for other artists as needed -->
+              </div>
+            </div>
+            <!-- TrendingEpisodes end -->
+
+            <div class="footer"></div>
+            <!-- footer -->
+            <div class="copyright"></div>
+            <!-- copyright -->
+          </main>
+        </div>
+        <!-- nav end -->
+      </div>
+      <!-- right end -->
+      <div class="player">
+        <div class="right_content">
+          <p>Preview of Spotify</p>
+          <p>
+            Sign up to get unlimited songs and products with occassional ads. No
+            credit card needed.
+          </p>
+        </div>
+        <div class="left_content">
+          <button class="signUpForFree" id="signup">Sign up free</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
